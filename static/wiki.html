@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Markdown Wiki</title>
+	<!-- YUI
+	http://developer.yahoo.com/yui/articles/hosting/?base&connection&json&reset-fonts-grids&yahoo-dom-event&MIN&norollup
+	-->
+	<!-- Combo-handled YUI CSS files: -->
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/combo?2.8.1/build/reset-fonts-grids/reset-fonts-grids.css&2.8.1/build/base/base-min.css">
+	<link rel="stylesheet" type="text/css" href="wiki.css" media="all" />
+</head>
+<body>
+	
+<div id="doc2" class="yui-t5">
+	<div id="hd" role="banner">
+		<div id="profile"></div>
+		<h1>Markdown Wiki</h1>
+	</div>
+	
+	<div id="bd" role="main">
+		<div id="yui-main">
+			<div class="yui-b">
+				<div id="container" class="yui-g">
+					<p id="page_editor">you need to login to access the wiki contents.</p>
+				</div><!-- /#container -->
+			</div>
+		</div><!-- /#yui-main -->
+		
+		<div id="pagelist_container" class="yui-b"></div>
+	</div><!-- /#bd -->
+
+	<div id="ft" role="contentinfo">
+		<p>
+			Markdown Wiki made with <a href="http://developer.yahoo.com/yui/2/">YUI2</a> &
+			<a href="http://attacklab.net/showdown/">Showdown</a>, 
+			powered by <a href="http://code.google.com/appengine/">Google App Engine</a> 
+		</p>
+	</div>
+</div>
+
+<!-- Combo-handled YUI JS files: -->
+<script type="text/javascript" src="http://yui.yahooapis.com/combo?2.8.1/build/yahoo-dom-event/yahoo-dom-event.js&2.8.1/build/connection/connection-min.js&2.8.1/build/json/json-min.js"></script>
+
+<script type="text/javascript" src="showdown.js"></script>
+<script type="text/javascript" src="wiki_auth.js"></script>
+<script type="text/javascript" src="wiki_page.js"></script>
+<script type="text/javascript" src="wiki_pagelist.js"></script>
+
+</body>
+</html>

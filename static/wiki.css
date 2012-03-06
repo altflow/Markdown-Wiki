@@ -1,0 +1,105 @@
+/**
+ * wiki.css
+ */
+
+/**
+ * General HTML Tags
+ */
+html, body {
+    background: #e7e7e7;
+}
+
+blockquote {
+    border-left: 2px solid #cccccc;
+    padding-left: .5em;
+}
+
+button {
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	background: #f0f0f0 url("http://yui.yahooapis.com/2.8.1/build/assets/skins/sam/sprite.png") repeat-x 0 0;
+	border-bottom: 1px solid #999999;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #999999;
+	border-top: 1px solid #cccccc;
+    padding: .25em .5em;
+}
+
+pre {
+    background: #f5f5f5;
+	border:1px solid #dddddd;
+	overflow:auto;
+	_overflow:scroll;
+	padding:0.5em;
+	width:auto;
+	_width:95%;	
+}
+
+/**
+ * Classes
+ */
+.action {
+    color: #bf322e;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/**
+ * Specific elements
+ */
+#profile {
+    text-align: right;
+}
+
+#container {
+    background: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+
+#content_container {
+    background: #ffffff;
+    padding: 0 1.5em 1.5em 1.5em;
+}
+
+#page_action {
+    background: #fbfbfb;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 0.5em;
+    text-align: right;
+}
+
+#page_action > span {
+    margin-right: .75em;
+}
+
+#page_editor {
+    line-height: 2em;
+    padding: 1.5em;
+}
+
+#page_editor > input {
+    width: 36em;
+}
+
+#page_editor > textarea {
+    height: 20em;
+    width: 48em;
+}
+
+#pagelist > li {
+    color: #0000ee;
+    cursor: pointer;
+    list-style: none;
+    margin-left: -1em;
+    text-decoration: underline;    
+}
+
+#ft {
+    color: #999999;
+    padding: 1.5em;
+}
+
+#ft > p > a {
+    color: #888888;
+}
